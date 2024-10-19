@@ -2,21 +2,13 @@
 This repository contains the implementation and research of the Excess Demand Method (EDM) for solving the Transportation Problem (TP), a classic issue in operations research. The goal is to minimize the total transportation cost of delivering goods from various suppliers to multiple consumers.
 
 
-# Introduction
+## Introduction
 The Transportation Problem (TP) focuses on minimizing the cost of transporting commodities from multiple suppliers to consumers. This project implements a new approach called the Excess Demand Method (EDM), which has been shown to provide a better Initial Basic Feasible Solution (IBFS) compared to traditional methods such as the North-West Corner Method (NWM), Least Cost Method (LCM), and Vogel's Approximation Method (VAM).
 
-# Features
+## Features
 * **Efficient Calculation**: Provides an efficient way to compute the Initial Basic Feasible Solution (IBFS) for transportation problems.
 * **Comparison with Other Methods**: Includes comparisons with 7 other methods: NWM, LCM, VAM, TDM1, TOCM-MT, JHM, and BCE.
 * **65 Test Cases**: Tested on 65 numerical problems, demonstrating improved performance in transportation cost minimization.
-
-# Installation
-To use this project, clone the repository and run the implementation. The project is written in C++, so make sure you have a C++ compiler installed on your machine.
-
-
-# **Transportation Problem Solver using Excess Demand Method (EDM)**
-
-This repository contains the implementation and research of the **Excess Demand Method (EDM)** for solving the **Transportation Problem (TP)**, focusing on minimizing the total transportation cost by computing an optimal Initial Basic Feasible Solution (IBFS).
 
 ## **Table of Contents**
 
@@ -28,7 +20,7 @@ This repository contains the implementation and research of the **Excess Demand 
 - [Results](#results)
 
 ## **Installation**
-
+To use this project, clone the repository and run the implementation. The project is written in C++, so make sure you have a C++ compiler installed on your machine.
 ### **Prerequisites**
 
 - C++ compiler (e.g., GCC, MSVC)
