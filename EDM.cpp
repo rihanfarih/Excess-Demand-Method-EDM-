@@ -220,7 +220,7 @@ int main(){
 	int deb;
 	int m, n, i, j; //ukuran matrix TP
 	
-	string NamaFile = "n26.txt"; //init nama file
+	string NamaFile = "C01.txt"; //init nama file
 	
 	ifstream inFile;
 	inFile.open(NamaFile.c_str());
