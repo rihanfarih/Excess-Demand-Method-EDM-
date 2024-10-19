@@ -32,6 +32,7 @@ To use this project, clone the repository and run the implementation. The projec
 git clone https://github.com/your-username/transportation-problem-EDM.git
 cd transportation-problem-EDM
 ```
+### **combine the dataset and program into one same folder**
 ### **Open the EDM Program**
 ### **Change the input file and run it**
 
