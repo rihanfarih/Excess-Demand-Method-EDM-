@@ -3,12 +3,12 @@ This repository contains the implementation and research of the Excess Demand Me
 
 
 ## Introduction
-The Transportation Problem (TP) focuses on minimizing the cost of transporting commodities from multiple suppliers to consumers. This project implements a new approach called the Excess Demand Method (EDM), which has been shown to provide a better Initial Basic Feasible Solution (IBFS) compared to traditional methods such as the North-West Corner Method (NWM), Least Cost Method (LCM), and Vogel's Approximation Method (VAM).
+The Transportation Problem (TP) focuses on minimizing the cost of transporting commodities from multiple suppliers to consumers. This project implements a new approach called the Excess Demand Method (EDM), which has been shown to provide a better Initial Basic Feasible Solution (IBFS) compared to Supply Selection Method (SSM), Bilqis Chastine Erma method (BCE), Total Opportunity Cost Matrix - Minimal Total (TOCM-MT), Vogel's Approximation Method (VAM), and Juman and Hoque's Method (JHM). 
 
 ## Features
 * **Efficient Calculation**: Provides an efficient way to compute the Initial Basic Feasible Solution (IBFS) for transportation problems.
-* **Comparison with Other Methods**: Includes comparisons with 7 other methods: NWM, LCM, VAM, TDM1, TOCM-MT, JHM, and BCE.
-* **65 Test Cases**: Tested on 65 numerical problems, demonstrating improved performance in transportation cost minimization.
+* **Comparison with Other Methods**: Includes comparisons with 6 other methods: VAM,JHM,TOCM-MT,BCE and SSM.
+* **32 Test Cases**: Tested on 32 numerical problems, demonstrating improved performance in transportation cost minimization.
 
 ## **Table of Contents**
 
@@ -39,30 +39,27 @@ cd transportation-problem-EDM
 
 ## **Methods Implemented**
 
-- **North-West Corner Method (NWM)**
-- **Least Cost Method (LCM)**
 - **Vogel's Approximation Method (VAM)**
+- **Juman Hoque Method (JHM)**
 - **Total Opportunity-Cost Method Modified (TOCM-MT)**
-- **Juman-Hoque Method (JHM)**
-- **Balanced Cost Efficiency (BCE)**
+- **Bilqis Chastine Erma (BCE)**
+- **Supply Selection Method (SSM)**
 - **Excess Demand Method (EDM)** (New)
 
 ## **Comparison with Other Methods**
 
-The project compares **EDM** with other traditional methods across 65 numerical cases. **EDM** consistently outperforms other methods in producing minimal total costs.
+The project compares **EDM** with other traditional methods across 32 numerical cases. **EDM** consistently outperforms other methods in producing minimal total costs.
 
 | Method      | Total Optimal      | Accuracy (%) |
 |-------------|--------------------|-------------------------|
-| **NWM**     | 4                 | 6,15                      |
-| **LCM**     | 9                 | 13,85                      |
-| **VAM**     | 29                 | 44,62                      |
-| **TDM1**    | 22                 | 33,85                      |
-| **TOCM-MT** | 33                 | 50,77                      |
-| **JHM**     | 43                 | 66,15                      |
-| **BCE**     | 45                 | 69,23                      |
-| **EDM**     | **52**             | **80**                  |
+| **VAM**     | 19                | 59,38                      |
+| **JHM**     | 22                 | 68,75                      |
+| **TOCM-MT**     | 18                 | 56,25                      |
+| **BCE**    | 21                 | 65,63                      |
+| **SSM** | 22                 | 68,75                      |
+| **EDM**     | **27**             | **84,38**                  |
 
 ## **Results**
 
-The **Excess Demand Method (EDM)** led to better total transportation costs in **52 out of 65** numerical problems when compared to the other seven methods. This demonstrates **EDM’s** efficiency in achieving optimal solutions.
+The **Excess Demand Method (EDM)** led to better total transportation costs in **27 out of 32** numerical problems when compared to the other seven methods. This demonstrates **EDM’s** efficiency in achieving optimal solutions.
 
