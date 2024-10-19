@@ -23,7 +23,7 @@ The Transportation Problem (TP) focuses on minimizing the cost of transporting c
 To use this project, clone the repository and run the implementation. The project is written in C++, so make sure you have a C++ compiler installed on your machine.
 ### **Prerequisites**
 
-- C++ compiler (e.g., GCC, MSVC)
+- C++ compiler (e.g., DEV C, GCC, MSVC)
 - Optional: [Tora System 7th Edition](https://www.torascience.com/) for result validation
 
 ### **Clone the Repository**
@@ -32,9 +32,16 @@ To use this project, clone the repository and run the implementation. The projec
 git clone https://github.com/your-username/transportation-problem-EDM.git
 cd transportation-problem-EDM
 ```
+
+![alt text](https://github.com/rihanfarih/Excess-Demand-Method-EDM-/blob/main/step1.png)
 ### **combine the dataset and program into one same folder**
+![alt text](https://github.com/rihanfarih/Excess-Demand-Method-EDM-/blob/main/step2.png)
 ### **Open the EDM Program**
+![alt text](https://github.com/rihanfarih/Excess-Demand-Method-EDM-/blob/main/step3.png)
 ### **Change the input file and run it**
+![alt text](https://github.com/rihanfarih/Excess-Demand-Method-EDM-/blob/main/step%204.png)
+
+![alt text](https://github.com/rihanfarih/Excess-Demand-Method-EDM-/blob/main/step5.png)
 
 
 
